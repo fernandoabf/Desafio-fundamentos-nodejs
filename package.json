@@ -1,0 +1,24 @@
+{
+  "name": "01-fundamentos-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "01-fundamentos-nodejs": "file:",
+    "csv": "^6.3.10",
+    "csv-generate": "^4.4.1",
+    "csv-parse": "^5.5.6",
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.5.1",
+    "csv-writer": "^1.6.0",
+    "stream-transform": "^3.3.2"
+  }
+}
